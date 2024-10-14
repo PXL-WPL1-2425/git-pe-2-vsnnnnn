@@ -30,18 +30,29 @@ nav {
     display: flex;
     gap: 18px;
 }
-.inlog-item{
+.inlog-item {
     display: flex;
     justify-content: center;
     height: 30px;
     width: 80px;
     border-radius: 50px;
     background: red;
-    color: black; font-size: 14pt;
+    color: black;
+    font-size: 14pt;
     text-decoration: none;
     font-weight: bold;
-
-
-
-
 }
+.hero_new__video{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
