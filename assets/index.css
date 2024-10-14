@@ -3,5 +3,26 @@ nav > div{
 img{
     height: 50px;
 }
-
+div ul a {
+    color: white; font-size: 14pt;
+}
+ul {list-style-type: none;
+display: flex}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.nav-item{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }
+.nav-links{
+    display: flex;
+    gap: 18px;
+}
 
